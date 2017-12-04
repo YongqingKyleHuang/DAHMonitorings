@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DAHMonitorings.NewMonitoringPage">
+    <ContentPage.Content>
+        <StackLayout Margin="10">
+          
+            <Entry Placeholder="Type" />
+            <Entry Placeholder="Subject"/>
+            <Entry Placeholder="Reporter" />
+            <Button Text="Save" Clicked="Button_Clicked"  />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
